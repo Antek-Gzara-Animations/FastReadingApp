@@ -1,0 +1,128 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>HELP</title>
+
+    <style>
+        body{
+            text-align: center;
+            background-color: #f5f5f5;
+        }
+        .HeaderBar {
+            background-color: #adadad;
+            width: 100vw;
+            padding: 10px;
+            top: 0;
+            left: 0;
+            position: sticky;
+            position: absolute;
+            z-index: 1;
+        }
+        .content {
+            background-color: #cfcfcf;
+            height: 100vh;
+            margin: auto;
+            margin-top: 100px;
+            width: 70vw;
+        }
+        .contentPage{
+            display: none;
+            width: auto;
+            background-color: #dddddd;
+            padding: 30px;
+        }
+        .button{
+            width: 100%;
+            height: 30px;
+            background-color: #bebebe;
+            transition-duration: 200ms;
+        }
+        .button:hover{
+            background-color: #939393;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="HeaderBar">"Fast Reading" App - Help Page</h1>
+    <div class="content">
+        <p class="contentHeader">
+            Table of contents:
+        </p>
+        <br />
+        <button onclick="show(1);" class="button"><span id="button1">+</span> general</button>
+        <br />
+
+        <div class="contentPage" id="1">
+            <h1>General</h1>
+            <p style="text-align: left;">
+                <b>UI</b>:
+                <br />
+                -"Paste from clipboard or write": open window with basic text editor.
+                <br />
+                -"start/stop" - start's playing text. If file is not selected or no text written the demo would be played.
+                <br />
+                -"open file" - select text file. WARNING:  the file extention must be .txt!
+                <br />
+                -"hide" - hide application to taskbar.
+                <br />
+                -"exit" - closes application.
+            </p>
+        </div>
+
+        <br />
+        <button onclick="show(2);" class="button"><span id="button2">+</span> opening file</button>
+        <br />
+
+        <div class="contentPage" id="2">
+            <h1>opening file</h1>
+            <p style="text-align: left;">
+                This button will open "select file" dialog window. Find your text file and click confirm. Then, press "start" button to play text animation.
+            </p>
+        </div>
+
+        <br />
+        <button onclick="show(3);" class="button"><span id="button3">+</span> uninstalling/updating</button>
+        <br />
+
+        <div class="contentPage" id="3">
+            <h1>How to uninstall?</h1>
+            <br />
+            <p>In order to uninstall, you need to search in your windows task bar "add or remove programs", find the program, click uninstall.</p>
+            <br />
+            <h1>How to update?</h1>
+            <p>In order to update, you need to search in your windows task bar "add or remove programs", find the program, click uninstall. Then find the newest version and download the installer. Install the newest version of app.</p>
+
+            <div id="updatesDIV"></div>
+        </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+    <script>
+        $(function () {
+            $("#updatesDIV").load("https:\\\\antek-gzara-animations.github.io\\other\\FastReading\\updates.html");
+        });
+
+
+        var IsContentVisible = [false, false, false];
+
+        function show(number) {
+            if (IsContentVisible[number]) {
+                document.getElementById(number).style.display = "none";
+                document.getElementById("button" + number).innerHTML = "+";
+                IsContentVisible[number] = false;
+            }
+            else {
+                document.getElementById(number).style.display = "inline-block";
+                document.getElementById("button" + number).innerHTML = "-";
+                IsContentVisible[number] = true;
+            }
+        }
+
+        
+    </script>
+</body>
+</html>

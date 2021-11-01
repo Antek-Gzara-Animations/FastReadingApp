@@ -1,0 +1,17 @@
+C:\Users\Activcom\source\repos\szybkie czytanie\szybkie czytanie\bin\Debug\szybkie czytanie.exe.config
+C:\Users\Activcom\source\repos\szybkie czytanie\szybkie czytanie\bin\Debug\szybkie czytanie.exe
+C:\Users\Activcom\source\repos\szybkie czytanie\szybkie czytanie\bin\Debug\szybkie czytanie.pdb
+C:\Users\Activcom\source\repos\szybkie czytanie\szybkie czytanie\obj\Debug\szybkie czytanie.csproj.AssemblyReference.cache
+C:\Users\Activcom\source\repos\szybkie czytanie\szybkie czytanie\obj\Debug\szybkie_czytanie.Form1.resources
+C:\Users\Activcom\source\repos\szybkie czytanie\szybkie czytanie\obj\Debug\szybkie_czytanie.Properties.Resources.resources
+C:\Users\Activcom\source\repos\szybkie czytanie\szybkie czytanie\obj\Debug\szybkie czytanie.csproj.GenerateResource.cache
+C:\Users\Activcom\source\repos\szybkie czytanie\szybkie czytanie\obj\Debug\szybkie czytanie.csproj.CoreCompileInputs.cache
+C:\Users\Activcom\source\repos\szybkie czytanie\szybkie czytanie\obj\Debug\szybkie czytanie.exe
+C:\Users\Activcom\source\repos\szybkie czytanie\szybkie czytanie\obj\Debug\szybkie czytanie.pdb
+C:\Users\Activcom\source\repos\szybkie czytanie\szybkie czytanie\obj\Debug\szybkie_czytanie.HelpForm.resources
+C:\Users\Activcom\source\repos\szybkie czytanie\szybkie czytanie\bin\Debug\szybkie czytanie.exe.manifest
+C:\Users\Activcom\source\repos\szybkie czytanie\szybkie czytanie\bin\Debug\szybkie czytanie.application
+C:\Users\Activcom\source\repos\szybkie czytanie\szybkie czytanie\obj\Debug\szybkie czytanie.exe.manifest
+C:\Users\Activcom\source\repos\szybkie czytanie\szybkie czytanie\obj\Debug\szybkie czytanie.application
+C:\Users\Activcom\source\repos\szybkie czytanie\szybkie czytanie\obj\Debug\szybkie_czytanie.PasteOrWriteForm.resources
+C:\Users\Activcom\source\repos\szybkie czytanie\szybkie czytanie\obj\Debug\szybkie_czytanie.debugWindow.resources
